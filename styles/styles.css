@@ -133,3 +133,83 @@ a {
 .fa-brands {
     color: #FFFFFF;
 }
+
+
+footer {border-top: 1px solid #7f7f7f;
+    height: 300px;
+    text-align: center;
+    
+    
+    
+}
+
+
+
+
+
+
+.container-firstfooter {
+    padding-top: 20px;
+    background-color: #7f7f7f;
+    height: 250px;
+    
+}
+
+
+
+.newsletter strong {
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.newsletter p {
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+
+
+
+
+.news input {
+    width: 400px; height: 50px;
+}
+
+
+.container-secondfooter {
+    display: grid;
+   grid-auto-columns: minmax(0, 1fr);
+   grid-auto-flow: column;
+   width: 100%;
+   height: 180px;
+    background-color: #0099CC;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+
+
+#col-sm-third-footer-col1 {
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+}
+
+#col-sm-third-footer-col1 p {
+    align-self: flex-end;
+    padding-left: 200px;
+}
+
+
+
+#col-sm-third-footer-col2 {
+    font-size: 15px;
+    display: flex;
+}
+
+#col-sm-third-footer-col2 p {
+    align-self: flex-end;
+    text-align: center;
+}
