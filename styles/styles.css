@@ -2,18 +2,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bebas+Neue&family=Kaushan+Script&family=Luckiest+Guy&family=Silkscreen:wght@400;700&family=Special+Elite&family=Viga&display=swap')
 ;
 
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
 body {
     background-color: white;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 300;
     font-style: normal;
+    padding-top: 100px;
+    
       
     ;
 }
 
+
 .disable-hover {
     pointer-events: none;
   }
+
+  
 
 .header {
     display: flex;
@@ -26,17 +37,38 @@ body {
     color: #FFFFFF;
     font-family: 'Courier New', Courier, monospace;
     width: 100%;
-    position: fixed
-
-    ;
+    position: fixed;
+    text-align: center;
+    height: 100px;
+    top: 0;
+   ;
 }
+
+
+
+
+#menu {
+    width: 100%;
+    background-color: #0099CC;
+}
+
+
+#rownavbar {
+    width: 80%;
+    align-content: center;
+}
+
+
+
+
+
 .logo {
     size: 10px;
     
     padding-left: 300px;
 }
 
-.row-hd {
+#hd {
     align-content: center;
     width: 80%;
 
