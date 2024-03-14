@@ -44,7 +44,17 @@ body {
    ;
 }
 
+/* CAMBIAR TAMAÑO LOGO EN HOVER */
 
+
+.logoini {
+    
+        transition: transform .7s ease-in-out;
+     
+}
+.logoini:hover {
+    transform: rotate(360deg);
+}
 
 
 #menu {
@@ -53,14 +63,96 @@ body {
 }
 
 
+#rowmenu .col {
+    
+    padding-top: 8px;
+
+    
+}
+
+#rowmenu .col:hover {
+    
+    background-color: #0686b1;
+    border: 0.1px solid white;
+   
+    
+    
+    
+}
+
+#barramenus {
+    width: 100%;
+    margin: 0 auto;
+
+
+}
+
+#barramenus col {
+    width: 16.6%;
+}
+
+
+
+#h5menu, #h5menu a {
+    text-align: center;
+    color: white;
+   
+}
+
 #rownavbar {
     width: 80%;
     align-content: center;
 }
 
 
+/* IDIOMA DROPDOWN - IDIOMA DROPDOWN - IDIOMA DROPDOWN - IDIOMA DROPDOWN - IDIOMA DROPDOWN - IDIOMA DROPDOWN - IDIOMA DROPDOWN - IDIOMA DROPDOWN - IDIOMA DROPDOWN -  */
+
+.dropbtn {
+    background-color: #0099CC;
+    color: white;
+    padding-top: 50px;
+    padding-right: 120px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    height: 8px;
+
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: gainsboro;
+    min-width: 80px;
+    /*box-shadow: 0px 0px 0px 0px pink;*/
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #0686b1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #0099CC;
+  }
 
 
+/* IDIOMA DROPDOWN - IDIOMA DROPDOWN - IDIOMA DROPDOWN - IDIOMA DROPDOWN - IDIOMA DROPDOWN - IDIOMA DROPDOWN - IDIOMA DROPDOWN - IDIOMA DROPDOWN - IDIOMA DROPDOWN -  */
 
 .logo {
     size: 10px;
