@@ -11,6 +11,10 @@ body {
     ;
 }
 
+td {
+  padding: 15px;
+}
+
 #contactform {
     font-family: 'Courier New', Courier, monospace;
 
@@ -60,3 +64,17 @@ input[type=text], select, textarea {
     background-size: cover
   }
   
+  .toprighticons {
+    width: 100%
+  }
+
+  .toprighticons table {
+
+    padding-top: 30px
+
+  }
+
+  .dropdown {
+    width: 100%;display: flex; align-items: center; 
+  }
+
