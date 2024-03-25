@@ -1,6 +1,6 @@
 function printDiv() { 
     var divContents = document.getElementById("contactform").innerHTML; 
-    var a = window.open('', '', 'height=1000, width=1000'); 
+    var a = window.open('', '', 'height=500, width=500'); 
     
     a.document.write(divContents); 
     

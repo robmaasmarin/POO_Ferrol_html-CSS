@@ -2,7 +2,7 @@
 
 function updateDiv() {
     document.getElementById("gracias").innerHTML = "Formulario enviado correctamente. Gracias por tu mensaje.";
-    
+    //document.getElementById("print").style.backgroundColor = "red";
     let text = "¿Quieres imprimir tu mensaje?";
     if (confirm(text) == true) {
         printDiv();
