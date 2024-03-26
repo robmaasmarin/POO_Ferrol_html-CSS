@@ -20,6 +20,8 @@ body {
 }
 
 
+
+
 .disable-hover {
     pointer-events: none;
   }
@@ -386,3 +388,47 @@ footer {border-top: 1px solid #7f7f7f;
 
 }
 
+.riasbaixascontent {
+    padding-top: 120px;
+    height: 80%;
+    width: 55%;
+    text-align: justify;
+    margin: 0 auto;
+    font-size: 20px;
+    
+   
+
+    
+}
+
+.riasbaixascontent h2 {
+    font-weight: bold;
+    color: #0099CC;
+
+
+}
+
+
+.privacycontent {
+
+    padding-top: 120px;
+    width: 55%;
+    text-align: justify;
+    margin: 0 auto
+}
+
+
+strong { font-weight: bold; }
+
+/*botón volver*/
+
+.voltar {
+
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
