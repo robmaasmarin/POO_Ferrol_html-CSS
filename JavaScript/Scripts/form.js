@@ -1,4 +1,4 @@
-
+// CÓDIGO PREGUNTANDO SI DESEAMOS IMPRIMIR LOS DATOS ENVIADOS A TRAVÉS DEL FORMULARIO
 
 function updateDiv() {
     document.getElementById("gracias").innerHTML = "Formulario enviado correctamente. Gracias por tu mensaje.";
@@ -10,19 +10,15 @@ function updateDiv() {
         text = "You canceled!";
       }
 
-
-
-
-
-
+// RESTABLECEMOS EL FORMULARIO
     document.getElementById("contactform").reset();
-    
+
 
     
 }
 
 
-
+// CÓDIGO PARA IMPRIMIR LOS DATOS DEL FORMULARIO EN PDF
 
 function printDiv() { 
     var divContents = document.getElementById("contactform").innerHTML; 

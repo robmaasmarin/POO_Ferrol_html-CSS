@@ -1,3 +1,4 @@
+// FUNCIÓN DE CONTROL DE INICIO DE SESIÓN. 3 USUARIOS CON SUS RESPECTIVAS CONTRASEÑAS
 function myFunction() {
     const user1 = "bob";
     const pass1 = "123";
@@ -20,6 +21,7 @@ function myFunction() {
 
             }
             else {
+                // CUANDO USUARIO Y/O CONTRASEÑA SON INCORRECTOS MOSTRAMOS MENSAJE DE ERROR EN ROJO
                 document.getElementById("invalid").style.color = "red"
                 document.getElementById("invalid").style.fontWeight = "bold";
                 document.getElementById("invalid").innerHTML = "Wrong username or password. Please, try again."
